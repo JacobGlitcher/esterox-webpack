@@ -1,0 +1,48 @@
+// abstracts
+@import "../abstracts/functions";
+
+.content {
+    max-width: 950px;
+    margin: 0 auto;
+    text-align: center;
+    flex: 1 1;
+	&__top {
+                padding: 0 15px;
+                margin-bottom: 25px;
+	}
+
+	&__top-title {
+                font-size: 35px;
+                margin-bottom: 35px;
+                position: relative;
+                display: inline-block;
+                &::before {
+                    content: "";
+                    position: absolute;
+                    bottom: -20px;
+                    width: 35%;
+                    height: 2px;
+                    left: bottom-hr(35%);
+                    background-color: rgb(0, 175, 0);
+                }
+	}
+
+	&__top-subtitle {
+                max-width: 450px;
+                margin: 0 auto;
+                font-size: 21px;
+                line-height: 1.2;
+	}
+
+	&__bottom {
+                text-align: center;
+	}
+
+	&__img {
+                max-width: 350px;
+                margin: 0 auto;
+                img {
+                    width: 100%;
+                }
+	}
+}

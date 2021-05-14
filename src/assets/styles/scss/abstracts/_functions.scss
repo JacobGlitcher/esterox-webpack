@@ -1,0 +1,3 @@
+@function bottom-hr($var) {
+    @return 50% - $var / 2;
+}

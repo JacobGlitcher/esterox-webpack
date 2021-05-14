@@ -1,0 +1,7 @@
+@font-face {
+	font-family: 'Roboto';
+	src: url('src/assets/fonts/roboto/Roboto-Regular.eot');
+	src: local('☺'), url('src/assets/fonts/roboto/Roboto-Regular.woff') format('woff'), url('src/assets/fonts/roboto/Roboto-Regular.ttf') format('truetype'), url('src/assets/fonts/roboto/Roboto-Regular.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}

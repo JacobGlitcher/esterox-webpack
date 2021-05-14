@@ -1,0 +1,254 @@
+@import url(d:\programming-components\web-prog-components\esterox-homeworks\webpack\src\assets\styles\css\fonts.css);
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+.content {
+  max-width: 950px;
+  margin: 0 auto;
+  text-align: center;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1;
+          flex: 1 1;
+}
+
+.content__top {
+  padding: 0 15px;
+  margin-bottom: 25px;
+}
+
+.content__top-title {
+  font-size: 35px;
+  margin-bottom: 35px;
+  position: relative;
+  display: inline-block;
+}
+
+.content__top-title::before {
+  content: "";
+  position: absolute;
+  bottom: -20px;
+  width: 35%;
+  height: 2px;
+  left: 32.5%;
+  background-color: #00af00;
+}
+
+.content__top-subtitle {
+  max-width: 450px;
+  margin: 0 auto;
+  font-size: 21px;
+  line-height: 1.2;
+}
+
+.content__bottom {
+  text-align: center;
+}
+
+.content__img {
+  max-width: 350px;
+  margin: 0 auto;
+}
+
+.content__img img {
+  width: 100%;
+}
+
+.header {
+  margin-bottom: 45px;
+}
+
+.header .navbar {
+  padding: 25px 10px;
+}
+
+.header .navbar-brand {
+  font-size: 25px;
+  text-transform: uppercase;
+}
+
+.header .nav-link {
+  font-size: 18px;
+}
+
+.footer {
+  padding: 15px 35px;
+  background-color: #313131;
+  margin-top: 45px;
+}
+
+.footer__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+@media only screen and (max-width: 576px) {
+  .footer__row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: stretch;
+        -ms-flex-pack: stretch;
+            justify-content: stretch;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .footer__column1 {
+    margin-bottom: 35px;
+  }
+}
+
+.footer__column2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer__circle {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #00a2ff;
+}
+
+.footer__content {
+  width: 100px;
+  height: 10px;
+  border-radius: 25px;
+  background-color: #00a2ff;
+  margin-right: 15px;
+}
+
+.footer__content:last-child {
+  margin-right: 0;
+}
+
+.footer__bottom {
+  font-size: 14px;
+  color: white;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.dark-mode {
+  -webkit-filter: invert(1) hue-rotate(180deg);
+          filter: invert(1) hue-rotate(180deg);
+}
+
+.invert {
+  -webkit-filter: invert(1) hue-rotate(180deg);
+          filter: invert(1) hue-rotate(180deg);
+}
+
+.invert .nav-item a {
+  -webkit-filter: invert(1) hue-rotate(180deg);
+          filter: invert(1) hue-rotate(180deg);
+}
+
+.wrapper {
+  height: 100%;
+}
+
+.home {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 100%;
+}
+
+.theme-btn {
+  position: absolute;
+  cursor: pointer;
+  top: 105px;
+  left: 15px;
+  font-size: 35px;
+  color: #ffbd42;
+}

@@ -1,0 +1,36 @@
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+.dark-mode {
+    filter: invert(1) hue-rotate(180deg);
+}
+
+.invert {
+    filter: invert(1) hue-rotate(180deg);
+    .nav-item {
+        a {
+            filter: invert(1) hue-rotate(180deg);
+        }
+    }
+}
+
+.wrapper {
+    height: 100%;
+}
+
+.home {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.theme-btn {
+    position: absolute;
+    cursor: pointer;
+    top: 105px;
+    left: 15px;
+    font-size: 35px;
+    color: rgb(255, 189, 66);
+}
